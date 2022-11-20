@@ -18,7 +18,7 @@ const Logo = () => {
         }}
         component="h3"
       >
-        airBnB
+        airBnB by Chizoba Victory
       </Typography>
     </Box>
   );

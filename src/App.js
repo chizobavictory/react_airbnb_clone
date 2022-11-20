@@ -1,5 +1,5 @@
 import Box from "@mui/material/Box";
-import Header from 'components/Header';
+import Header from "components/Header";
 import React from "react";
 import CssBaseline from "@mui/material/CssBaseline";
 import "./App.css";
