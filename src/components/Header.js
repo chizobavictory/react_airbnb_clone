@@ -2,10 +2,12 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 // components
 import Logo from "./Logo";
-// import LocationSearch from "./LocationSearch";
+import LocationSearch from "./LocationSearch";
 import { flexBetweenCenter, dFlex } from "themes/commonStyles";
-// import ProfileSettings from "./ProfileSettings";
+import ProfileSettings from "./ProfileSettings";
 // import MobileSearch from "./MobileSearch";
+
+
 
 const Header = () => {
   return (
@@ -25,6 +27,8 @@ const Header = () => {
           }}
         >
           <Logo />
+          <LocationSearch />
+          <ProfileSettings />
         </Box>
       </Container>
     </Box>
