@@ -3,9 +3,9 @@ import Container from "@mui/material/Container";
 // components
 import Logo from "./Logo";
 import LocationSearch from "./LocationSearch";
-import { flexBetweenCenter, dFlex } from "themes/commonStyles";
+import { flexBetweenCenter, dFlex, displayOnDesktop } from "themes/commonStyles";
 import ProfileSettings from "./ProfileSettings";
-// import MobileSearch from "./MobileSearch";
+import MobileSearch from "./MobileSearch";
 
 
 
@@ -15,20 +15,29 @@ const Header = () => {
       sx={{
         ...dFlex,
         minHeight: 70,
-        borderBottom: "1px solid #ddd",
+        borderBottom: '1px solid #ddd',
       }}
     >
       <Container maxWidth="xl">
         <Box
           sx={{
             ...flexBetweenCenter,
-            minHeight: 70,
+            minHeight: 90,
             px: 4,
           }}
         >
-          <Logo />
-          <LocationSearch />
-          <ProfileSettings />
+          <Box sx={displayOnDesktop}>
+            <Logo />
+          </Box>
+          <Box sx={displayOnDesktop}>
+            <LocationSearch />
+          </Box>
+          <Box sx={displayOnDesktop}>
+            <ProfileSettings />
+          </Box>
+          <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
+            <MobileSearch />
+          </Box>
         </Box>
       </Container>
     </Box>
