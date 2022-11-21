@@ -4,6 +4,8 @@ import React from "react";
 import CssBaseline from "@mui/material/CssBaseline";
 import "./App.css";
 import OptionsTab from "components/OptionsTab";
+import Container from "@mui/material/Container";
+import LocationCards from "components/LocationCards";
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
         <Box>
           <Header />
           <OptionsTab />
+          <Container maxWidth="xl" sx={{ mb: 3 }}>
+            <LocationCards />
+          </Container>
         </Box>
       </Box>
     </React.Fragment>
