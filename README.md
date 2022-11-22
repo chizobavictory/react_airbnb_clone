@@ -1,7 +1,7 @@
 This is a clone of the airbnb home page with react. 
 I used Material UI for styling css
 
-The site can be viewed on: chizobavictory-react-mui-airbnb-clone.netlify.app
+The site can be viewed on: https://chizobavictory-react-mui-airbnb-clone.netlify.app/
 
 
 # Getting Started with Create React App
