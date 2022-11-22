@@ -1,4 +1,8 @@
 This is a clone of the airbnb home page with react. 
+I used Material UI for styling css
+
+The site can be viewed on: chizobavictory-react-mui-airbnb-clone.netlify.app
+
 
 # Getting Started with Create React App
 
@@ -30,11 +34,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
