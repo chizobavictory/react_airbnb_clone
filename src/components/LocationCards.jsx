@@ -2,7 +2,7 @@ import React from 'react';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import { locations as cardLocations } from './data/mock-data';
-// import CarouselCard from './CarouselCard';
+import CarouselCard from './CarouselCard';
 
 const LocationCards = () => {
   const [cards] = React.useState(cardLocations);
@@ -15,7 +15,7 @@ const LocationCards = () => {
         {cards.map((location) => {
           return (
             <Grid key={location.id} item xs={12} sm={4} md={4} lg={3}>
-              {location.location}
+              <CarouselCard location={location} />
             </Grid>
           );
         })}
