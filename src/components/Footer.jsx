@@ -39,7 +39,7 @@ const Footer = () => {
         >
           <Stack>
             <Paper>
-              <Link href="https://chizobavictoryportfolio.webflow.io/"> 2022 Airbnb Chizoba Victory Copyright </Link>
+              <Link href="https://chizobavictoryportfolio.webflow.io/"> 2022 Chizoba Victory Copyright </Link>
             </Paper>
             {footerLinks.map((link) => {
               return (
