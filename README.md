@@ -3,6 +3,9 @@ I used Material UI for styling css
 
 The site can be viewed on: https://chizobavictory-react-mui-airbnb-clone.netlify.app/
 
+### Demo
+https://user-images.githubusercontent.com/43314673/209007374-62c9f1bc-4cea-415b-9418-0e5988b2fdd7.mov
+
 
 # Getting Started with Create React App
 
@@ -34,9 +37,4 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-
-
-### Demo
-https://user-images.githubusercontent.com/43314673/209007374-62c9f1bc-4cea-415b-9418-0e5988b2fdd7.mov
 
